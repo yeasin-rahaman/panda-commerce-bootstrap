@@ -1,0 +1,14 @@
+.bg-panda-header{
+    background-color: #FEEAE9 ;
+}
+.panda-button{
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: white;
+    border-radius: 8px;
+    padding: 9px 25px;
+    border: none;
+
+}
+.price{
+    color: #FF136F;
+}
