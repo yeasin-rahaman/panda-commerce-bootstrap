@@ -2,6 +2,7 @@
     background-color: #FEEAE9 ;
 }
 .panda-button{
+    
     background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
     color: white;
     border-radius: 8px;
@@ -9,8 +10,17 @@
     border: none;
 
 }
+.panda-button:focus{
+    border-color:#FF136F ;
+    box-shadow: 0 0 0 0.25rem rgb(255 19 111 / 25%);
+
+}
+.panda-button :hover{
+    color: red;
+}
 .price{
     color: #FF136F;
+
 }
 .input-panda:focus{
     border-color:#FF136F ;
